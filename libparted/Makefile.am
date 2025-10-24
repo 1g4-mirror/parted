@@ -60,6 +60,4 @@ libparted_la_LIBADD =	\
   $(UUID_LIBS)		\
   $(INTLLIBS)
 
-EXTRA_DIST	      = mbr.s
-
 AM_CPPFLAGS = $(partedincludedir) $(INTLINCS)
