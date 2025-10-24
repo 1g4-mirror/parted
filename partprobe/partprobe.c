@@ -51,7 +51,7 @@
 #define _(msgid) gettext (msgid)
 
 #define AUTHORS \
-  "<http://git.debian.org/?p=parted/parted.git;a=blob_plain;f=AUTHORS>"
+  "<https://cgit.git.savannah.gnu.org/cgit/parted.git/tree/AUTHORS>"
 
 /* The official name of this program (e.g., no `g' prefix).  */
 #define PROGRAM_NAME "partprobe"
