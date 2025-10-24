@@ -567,8 +567,8 @@ ask_type (PedFileSystem* fs, int fat16_ok, int fat32_ok, FatType* out_fat_type)
 	ped_exception_throw (
 		PED_EXCEPTION_NO_FEATURE,
 		PED_EXCEPTION_CANCEL,
-		_("GNU Parted cannot resize this partition to this size.  "
-		  "We're working on it!"));
+		_("GNU Parted cannot resize this partition of this size.  "
+		  "This may be due to the filesystem size being too small."));
 
 	return 0;
 }
