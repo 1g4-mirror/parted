@@ -639,7 +639,7 @@ create_resize_context (PedFileSystem* fs, const PedGeometry* new_geom)
 						* sizeof (FatDirEntry) / 512;
 
 	if (!get_fat_type (fs, new_geom, &new_fat_type))
-		return 0;
+		return NULL;
 
 	fat_calc_resize_sizes (new_geom, fs_info->cluster_sectors, new_fat_type,
 		root_dir_sector_count, fs_info->cluster_sectors,
